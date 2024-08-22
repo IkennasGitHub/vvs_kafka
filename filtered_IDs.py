@@ -60,12 +60,12 @@ def get_transit_info(start_index, end_index):
                 
                         #f.write(f'{dep.serving_line}; {dep.delay}\n')
                         print(f'There will be a {dep.delay} minutes delay at {zone_list[index].name}')
-                        with open(data_file, 'w') as json_file:
+                        with open(data_file, 'a') as json_file:
                             json.dump(dep_info, json_file, indent = 4)
                     elif dep.cancelled:
                         dep_info["status"] = "Cancelled"
                         print(f"Alarm! The train at {dep.real_datetime} has been cancelled!")
-                        with open(data_file, 'w') as json_file:
+                        with open(data_file, 'a') as json_file:
                             json.dump(dep_info, json_file, indent = 4)
                     else:
                         #print(f"Train on time at {zone_list[index].name}")

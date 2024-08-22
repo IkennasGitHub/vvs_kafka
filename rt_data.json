@@ -8,4 +8,514 @@
     "delay": 8,
     "cancelled": false,
     "status": "Delayed"
+}{
+    "station": "S\u00dcDHEIMER_PLATZ_1",
+    "serving_line": "U14",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "UNTERT\u00dcRKHEIM_13",
+    "serving_line": "U13",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BIHLPLATZ_1",
+    "serving_line": "U14",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "HAUPTBF__ARNULF_KLETT_PLATZ_3",
+    "serving_line": "U12",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "HAUPTBAHNHOF__OBEN_2",
+    "serving_line": "S6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "HAUPTBAHNHOF__OBEN_4",
+    "serving_line": "S3",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 5,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "HESLACH_VOGELRAIN_1",
+    "serving_line": "U14",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:49",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BERLINER_PLATZ__HOHE_STRASSE_2",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BERLINER_PLATZ__HOHE_STRASSE_2",
+    "serving_line": "U4",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "OLGAECK_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:49",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "INSELSTRASSE_1",
+    "serving_line": "U9",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "WASENSTRASSE_2",
+    "serving_line": "U9",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "WASENSTRASSE_3",
+    "serving_line": "U9",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:49",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "SCHEMPPSTRASSE_1",
+    "serving_line": "U7",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "SILLENBUCH_1",
+    "serving_line": "U7",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "FEUERBACH_1",
+    "serving_line": "S4",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "FEUERBACH_5",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BOPSER_1",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BOPSER_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "SIEGLESTRASSE_2",
+    "serving_line": "U7",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "DEGERLOCH_1",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BERGHEIMER_HOF_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 4,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "WOLFBUSCH_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 4,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "SCHLOSSPLATZ_3",
+    "serving_line": "U12",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:49",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "SCHLOSSPLATZ_4",
+    "serving_line": "U12",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "WILHELM_GEIGER_PLATZ_1",
+    "serving_line": "U13",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "WILHELM_GEIGER_PLATZ_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "SPORTPARK_FEUERBACH_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "F\u00d6HRICH_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:49",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "CHARLOTTENPLATZ_6",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "MAYBACHSTRASSE_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "STADTMITTE_6",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "STADTMITTE_6",
+    "serving_line": "U4",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "DOBELSTRASSE_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "WEINSTEIGE_1",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "VAIHINGER_STRASSE_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "ROHRER_WEG_2",
+    "serving_line": "U6",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "MAX_EYTH_SEE_2",
+    "serving_line": "U14",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "OBERE_ZIEGELEI_2",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "HOFEN_2",
+    "serving_line": "U14",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:48",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "WAGRAIN\u00c4CKER_2",
+    "serving_line": "U14",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BAD_CANNSTATT_WILHELMSPLATZ_5",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "\u00d6STERREICHISCHER_PLATZ_2",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:49",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "ZUFFENHAUSEN_3",
+    "serving_line": "S4",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BUDAPESTER_PLATZ_2",
+    "serving_line": "U12",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:50",
+    "delay": 2,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "GNESENER_STRASSE_2",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:49",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "KURSAAL_2",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "RUSSISCHE_KIRCHE_2",
+    "serving_line": "U4",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:45",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "DAIMLERPLATZ_2",
+    "serving_line": "U1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "ROSENBERG__SEIDENSTRASSE_1",
+    "serving_line": "U4",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:46",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
+}{
+    "station": "BERLINER_PLATZ__LIEDERHALLE_4",
+    "serving_line": "U4",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:47",
+    "delay": 1,
+    "cancelled": false,
+    "status": "Delayed"
 }
