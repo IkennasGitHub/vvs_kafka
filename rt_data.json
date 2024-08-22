@@ -1,0 +1,11 @@
+{
+    "station": "NECKARPARK_2",
+    "serving_line": "S1",
+    "year": 2024,
+    "month": 8,
+    "day": 22,
+    "time": "23:40",
+    "delay": 8,
+    "cancelled": false,
+    "status": "Delayed"
+}

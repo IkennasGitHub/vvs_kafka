@@ -16,6 +16,8 @@ filtered_ids = df[df['Tarifzonen'] == '1']['Globale ID'].tolist()
 # Print the list of filtered IDs
 #print(filtered_ids)
 
+data_file = "rt_data.json"
+
 zone_list = []
 sttn_list = list(Station.__members__.values())
 for index in range(len(sttn_list)):
@@ -39,14 +41,32 @@ def get_transit_info(start_index, end_index):
         for dep in deps:
             if dep.real_datetime < stop_time:
                 if dep.serving_line.symbol in ("S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10", "U1", "U2", "U3", "U4", "U5", "U6", "U7", "U8", "U9", "U10", "U11", "U12", "U13", "U14"):
+                    dep_info = {
+                    "station": zone_list[index].name,
+                    "serving_line": dep.serving_line.symbol,
+                    #"time": dep.real_datetime.isoformat() if dep.real_datetime else None,
+                    "year": dep.real_datetime.year,
+                    "month": dep.real_datetime.month,
+                    "day": dep.real_datetime.day,
+                    "time": dep.real_datetime.strftime('%H:%M'),
+                    "delay": dep.delay,
+                    "cancelled": dep.cancelled,
+                    "status": ""
+                    }
                     if dep.delay > 0:
+                        dep_info["status"] = "Delayed"
                         print(f"Alarm! Delay detected at {zone_list[index].name}")
                         print(dep)
                 
                         #f.write(f'{dep.serving_line}; {dep.delay}\n')
                         print(f'There will be a {dep.delay} minutes delay at {zone_list[index].name}')
+                        with open(data_file, 'w') as json_file:
+                            json.dump(dep_info, json_file, indent = 4)
                     elif dep.cancelled:
+                        dep_info["status"] = "Cancelled"
                         print(f"Alarm! The train at {dep.real_datetime} has been cancelled!")
+                        with open(data_file, 'w') as json_file:
+                            json.dump(dep_info, json_file, indent = 4)
                     else:
                         #print(f"Train on time at {zone_list[index].name}")
                         #print(dep.real_datetime.strftime('%H:%M'))
