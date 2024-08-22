@@ -18,7 +18,7 @@ stop_time = requested_time + timedelta(hours=1)
 
 for index in range(1000):
         
-    deps = get_departures(station_list[index], limit=20, check_time=requested_time)
+    deps = get_departures(station_list[index], limit=40, check_time=requested_time)
     #print(f"Current iteration: {station_list[index].name}")
         
     for dep in deps:

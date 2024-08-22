@@ -4,7 +4,7 @@ import json
 #from psycopg2.extras import RealDictCursor
 from minio import Minio
 from minio.error import S3Error
-import os
+import os, io
 from datetime import datetime
 
 '''conn = psycopg2.connect(
@@ -79,14 +79,15 @@ def process_messages():
         conn.commit()'''
 
         # Store in MinIO bucket
-        object_name = f"message_{datetime.now().strftime('%d/%m/%Y, %H:%M:%S')}.json"
+        object_name = f"message_{datetime.now().strftime('%d%m%Y_%H%M%S')}.json"
         object_data = json.dumps(data).encode('utf-8')
+        object_stream = io.BytesIO(object_data)
 
         try:
             minio_client.put_object(
                 bucket_name,
                 object_name,
-                data = object_data,
+                data = object_stream,
                 length = len(object_data),
                 content_type = 'application/json'
             )
