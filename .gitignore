@@ -4,5 +4,5 @@ vvs.ipynb
 .ipynb_checkpoints
 filtered_IDs.py
 trips.json
-vvs_trips.py
+#vvs_trips.py
 debug.json
