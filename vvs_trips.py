@@ -4,7 +4,7 @@ from datetime import datetime
 import json, time
 from multiprocessing import Process
 
-file_path = 'debug.json'
+file_path = 'debug.jsonl'
 station_list = list(Station.__members__.values())
 
 trip_info = {
@@ -32,6 +32,7 @@ def get_connections(start_index, stop_index):
                         trip_info[f'connection_{connection_index+1}']['departure_time'] = f'{trip.connections[connection_index].origin.departure_time_estimated.strftime("%H:%M")}'
                         trip_info[f'connection_{connection_index+1}']['destination'] = f'{trip.connections[connection_index].destination.name}'
                         trip_info[f'connection_{connection_index+1}']['arrival_time'] = f'{trip.connections[connection_index].destination.arrival_time_estimated.strftime("%H:%M")}'
+                        
                         '''print(f'\n{trip.connections[0].origin.name} - {trip.connections[-1].destination.name}')
                         print(f'\n{trip}')
                         print(f'\n{trip.connections[connection_index].transportation.disassembled_name}')
@@ -43,7 +44,9 @@ def get_connections(start_index, stop_index):
                         print(f'\n{trip.connections[connection_index].transportation.product["name"]}')'''
 
                     with open(file_path, 'a', encoding='utf-8') as f:
-                        json.dump(trip_info, f, ensure_ascii=False, indent=4,)
+                        f.write(json.dumps(trip_info, ensure_ascii=False)+ '\n')
+                        f.flush()
+                        #print('Data written successfully.')
             else:
                 continue        
         except Exception as e:
@@ -54,21 +57,21 @@ def get_connections(start_index, stop_index):
 if __name__ == '__main__':
         
         start_time = time.time()
-        process_1 = Process(target=get_connections, args=(1000, 2000))
-        #process_2 = Process(target=get_connections, args=(2000, 3000))
-        #process_3 = Process(target=get_connections, args=(3000, 4000))
-        #process_4 = Process(target=get_connections, args=(4000, 5000 ))
+        process_1 = Process(target=get_connections, args=(0, 5000))
+        process_2 = Process(target=get_connections, args=(5000, 10000))
+        process_3 = Process(target=get_connections, args=(10000, 15000))
+        process_4 = Process(target=get_connections, args=(15000, 19933  ))
 
         process_1.start()
-        #process_2.start()
-        #process_3.start()
-        #process_4.start()
+        process_2.start()
+        process_3.start()
+        process_4.start()
 
         print('Running...')
 
         process_1.join()
-        #process_2.join()
-        #process_3.join()
-        #process_4.join()
+        process_2.join()
+        process_3.join()
+        process_4.join()
         
         print(f"Processing complete in {(time.time() - start_time)/60} minutes")
