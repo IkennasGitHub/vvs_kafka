@@ -13,12 +13,12 @@ producer = Producer({'bootstrap.servers': 'localhost:9092'})
 station_list = list(Station.__members__.values())
 
 current_time = datetime.now()
-requested_time = current_time - timedelta(hours=0)
+requested_time = current_time - timedelta(hours=1)
 stop_time = requested_time + timedelta(hours=1)
 
 for index in range(1000):
         
-    deps = get_departures(station_list[index], limit=40, check_time=requested_time)
+    deps = get_departures(station_list[index], check_time=requested_time)
     #print(f"Current iteration: {station_list[index].name}")
         
     for dep in deps:
@@ -50,9 +50,9 @@ for index in range(1000):
                     dep_info["status"] = "Cancelled"
                     producer.produce("vvs_rt_data", key=station_list[index].name, value=json.dumps(dep_info))
                 else:
-                    #print(f"Train on time at {station_list[index].name}")
-                    #print(dep)
-                    continue
+                    print(f"Train on time at {station_list[index].name}")
+                    print(dep)
+                    #continue
                     
             else:
                 continue
